@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+   font-family: "Inter", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: white;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #2531c0;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #444;
+}
+
+nav .active:hover{
+  color: #ff5a1f;
+  transition: all 1s;
+}
+nav .active {
+   color: #444;
+}
+
+.post-btn {
+  background-color: #ff5a1f;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.shop-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.search input {
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  width: 200px;
+  background-color: black;
+  color: white;
+}
+
+.search button {
+  padding: 10px 16px;
+  background-color: #001f89;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 0 30px 40px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+}
+.family {
+    width: 100px;
+    height: 100px;
+}
+
+.card span {
+  font-weight: bold;
+  color: goldenrod;
+  display: block;
+  margin: 8px 0;
+}
+
+footer {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  border-top: 1px solid #ddd;
+}
